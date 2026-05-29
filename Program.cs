@@ -12,7 +12,7 @@ namespace MiniEcoMarket
         static List<Order> orders = new List<Order>();
         static List<User> users = new List<User>();
 
-        // Pipe-separated text files (simple + "C# only" persistence).
+       
         // NOTE: user inputs should not include the '|' character.
         const string ProductsFile = "products.txt";
         const string OrdersFile = "orders.txt";
